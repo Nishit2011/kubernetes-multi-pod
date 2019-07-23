@@ -12,7 +12,7 @@ spec:
       labels:
         component: web
     spec:
-      container:
+      containers:
         - name: client
           image: nranjan2004/multi-client
           ports: 
